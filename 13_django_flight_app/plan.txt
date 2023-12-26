@@ -1,0 +1,16 @@
+- Flight
+- Reservation
+- Passenger
+
+# Flight
+    - Client
+        -View upcoming Flight
+    - Staff Member(is_staff=True)
+        - View all Flight
+        - CRUD Flight
+
+# Reservation
+    - Client
+        - CRUD Reservation(their own Reservations)
+    - Staff Member
+        - CRUD Reservation(all Reservation)
